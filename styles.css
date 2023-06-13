@@ -1,0 +1,56 @@
+* {
+    color: rgb(0, 0, 87);
+}
+
+form {
+    width: 275px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+input {
+    border: 1px solid rgb(27, 27, 75);
+    border-radius: 5px;
+    background-color: rgba(47, 47, 160, 0.4);
+    height: 25px;
+}
+
+#btn {
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+#weatherCard {
+    border: 1px solid rgb(27, 27, 75);
+    width: 275px;
+    height: 275px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 18px;
+    text-align: center;
+    background-color: rgba(47, 47, 160, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+p {
+    font-size: larger;
+}
+
+#h_l_box {
+    font-size: small;
+
+}
+
+.h_or_l {
+    display: inline-block;
+    margin: 7px;
+}
+
+#humid {
+    font-size: 17px;
+}
